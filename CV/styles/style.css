@@ -1,0 +1,82 @@
+body {
+  background-color: lightblue;
+  color: #340944;
+  font-family: Georgia;
+  font-size: 140%;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+@media (min-width: 600px) {
+  .mainContainer1 div, .mainContainer2 div, .mainContainer3 div, .mainContainer4 div {
+    border: 1px black solid;
+    padding: 10px;
+  }
+
+  .mainContainer1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mainContainer2 {
+    display: flex;
+  }
+
+  .mainContainer3 {
+    display: flex;
+  }
+
+  .mainContainer4 {
+    display: flex;
+  }
+
+  .mainContainer5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.title {
+  flex: 1 1 100%;
+}
+
+.contact {
+  flex: 1 1 100%;
+}
+
+.socialLink {
+  flex: 1 1 100%;
+}
+
+.work {
+  flex: 1 1 80%;
+}
+
+.education {
+  flex: 1 1 80%;
+}
+
+.skills {
+  width: 100%;
+}
+
+.dates {
+  flex: 1 1 20%;
+}
+
+.social {
+  flex-basis: 30%;
+}
+
+.top {
+  flex-basis: 30%;
+}
+
+.sound {
+  text-decoration: underline;
+}
